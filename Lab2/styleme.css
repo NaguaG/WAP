@@ -1,0 +1,31 @@
+#emoji {
+    width: 300;
+    height: 300;
+}
+body {
+    background-color:lavender
+}
+span {
+    color:darkviolet
+}
+
+.header {
+    color: darkslategrey;
+   
+      
+}
+em {
+    color: brown;
+}
+.link {
+    color: red;
+}
+.fun {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#main {
+    text-align: center;
+}
+#text {
+    text-align: center;
+}
