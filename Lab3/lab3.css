@@ -28,18 +28,18 @@ body {
     justify-content: flex-start;
     margin: 0 4rem;
 }
-#table {
+.container {
     border-collapse: collapse;
     width: 50%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
    
 }
-#table th, #table td {
+.container th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
 }
-#table th {
+#.container th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
