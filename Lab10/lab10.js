@@ -6,9 +6,9 @@ Array.prototype.even = function () {
     return this.filter((a) => a % 2 !== 0);
   };
   
-  console.log([7, 15, 22, 90, 5].even());
-  console.log([9, 3, 17, 18, 22, 98].odd());
-  console.log([96, 56, 4, 5, 3, 1].odd());
+ console.log([1,2,3,4,5,6,7,8].even());
+  console.log([1,2,3,4,5,6,7,8].odd());
+ 
   
   // Question 2
 
@@ -18,7 +18,7 @@ Array.prototype.even = function () {
   a one-time callback after delay milliseconds.
    */
   
-  // 2. Explain the difference between process.nextTick and setImmediate?
+  // 2. Explain the difference between process.nextTicd setImmediate?
   /* nextTick() is processed after every phase of the event 
   loop and setImmediate() is only processed on the check handler phase of the event loop.
   */
