@@ -1,3 +1,4 @@
+//Fix the code below using bind
 let group = {
     title: "Our Group",
     students: ["John", "Pete", "Alice"],
