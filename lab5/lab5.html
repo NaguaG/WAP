@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Introduction</title>
+    <link href="lab5.css" type="text/css" rel="stylesheet"/>
+    <script src="lab5.js"></script>
+</head>
+<body>
+    <h1>Lab 5: Javascript Introduction</h1>
+    <ol>
+        <li>Create a function using function declaration named sum with one parameter of 
+            Array type, the returned result is the sum of all elements which are greater than 20.
+            <pre>
+            const testArray = [54, 2, 18, 11, 16, 0, 256];
+                const sums = testArray
+                    .filter(cur => cur > 20)
+                    .reduce((prev, cur) => prev + cur, 0);
+
+             console.log(sums);
+            </pre>
+        </li>
+        <li>  For a given String array, return a new array which contains all string, length is greater than and 
+            equals to 5, and contains letter a
+            <pre>
+            const testarray = [54, 2, 18, 11, 16, 0, 256];
+                const sums = testarray
+                    .filter(cur => cur > 20)
+                    .reduce((prev, cur) => prev + cur, 0);
+
+            console.log(sums);
+
+                const strings = ["book", "keyboard", "dom", "class", "tonn"];
+                const words = strings.filter((word) => word.length >= 5 && word.includes("a"));
+
+            console.log(words);
+        </pre>
+        </li>
+    </ol>
+</body>
+</html>
